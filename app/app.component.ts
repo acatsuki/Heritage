@@ -27,3 +27,5 @@ export class AppComponent {
         }
     }
 }
+
+// angular2@2.0.0-beta.12
