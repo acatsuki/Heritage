@@ -1,0 +1,14 @@
+{
+  "name": "Heritage",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run fireServer\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "fireServer": "firebase serve",
+    "typings": "typings",
+    "postinstall": "typings install"
+  }
+}
+

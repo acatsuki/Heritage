@@ -1,0 +1,38 @@
+body {
+    background: url("../imgs/space.png") no-repeat;
+    margin: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    background-color: #11A5BB;
+    margin: 0px;
+    padding: 15px;
+    box-shadow: 1px 1px 12px #000;
+    display: flex;
+    position: relative;
+}
+
+header button {
+    position: absolute !important;
+    right: 15px;
+    bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #000000;
+    opacity: 0.9;
+    color: #FFF;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}

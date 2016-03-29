@@ -1,0 +1,12 @@
+{
+  "firebase": "torrid-heat-7260",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "node_modules/**",
+    "tsconfig.json",
+    "package.json",
+    "README.md"
+  ]
+}
