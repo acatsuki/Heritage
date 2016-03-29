@@ -54,3 +54,4 @@ System.register(['angular2/core', 'angular2/src/core/linker', './login/login'], 
         }
     }
 });
+// angular2@2.0.0-beta.12
